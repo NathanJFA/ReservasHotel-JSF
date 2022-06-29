@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+body {
+	font: normal 12px Arial;
+}
+table {
+	width: 70%;
+}
+
+tr > th {
+	background-color: #DDD;
+}
+tr.linha1 > td {
+	background-color: #EEE;
+}
+tr.linha2 > td {
+	background-color: #FFF;
+}
+
+.info {
+	color: #00F;
+}
+
+.warn {
+	color: #CC0;
+}
+
+.erro{
+	color: #F00;
+}
+.fatal {
+	color: #F00;
+	font-wight: bold;
+}
